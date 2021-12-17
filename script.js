@@ -66,3 +66,13 @@ var bodyPart = ['jaw', 'heel', 'palm', 'thumb', 'eyelid', 'toenail', 'index fing
 var random = Math.floor(Math.random() * bodyPart.length);
   bodyPartArr[i].textContent = bodyPart[random];
 }
+
+
+var arrays = [nounArr, adjectiveArr, verbArr, adverbArr, pluralNounArr, bodyPartArr];
+
+function getType(arrays){
+var arrays = arrays;
+return arrays;
+}
+
+console.log(arrays);S
