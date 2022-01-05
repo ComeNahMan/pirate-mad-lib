@@ -90,7 +90,7 @@ var getWord = function(type) {
   } else if (type == "adverb") {
     return adverb[random];
   } else if (type == "pluralnoun") {
-    return pluralNounsrandom];
+    return pluralNoun[random];
   } else if (type == "bodyparts") {
     return bodyPart[random];
   }
