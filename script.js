@@ -75,4 +75,23 @@ var arrays = arrays;
 return arrays;
 }
 
-console.log(arrays);S
+console.log(arrays);
+
+
+
+var getWord = function(type) {
+  random = Math.floor(Math.random() * nounArr.length);
+  if (type == "noun") {
+    return noun[random];
+  } else if (type == "adjective") {
+    return adjective[random];
+  } else if (type == "verb") {
+    return verb[random];
+  } else if (type == "adverb") {
+    return adverb[random];
+  } else if (type == "pluralnoun") {
+    return pluralNounsrandom];
+  } else if (type == "bodyparts") {
+    return bodyPart[random];
+  }
+}
